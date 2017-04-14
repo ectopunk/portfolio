@@ -5,9 +5,7 @@ OUTPUT
 The script needs to decompress the files, move them to “/data” and delete the original file.
 
 
-/bin/date >> /home/multiverse/logs/rsync.log
-/usr/bin/rsync -e ssh -auv --exclude-from=/home/multiverse/bin/rsync_exclusions.txt multiverse@multiverse.org:~/ /home/multiverse/website/ >> /home/multiverse/logs/rsync.log 2>&1
-/bin/date >> /home/multiverse/logs/rsync.log
+
 
 
 [stutter]$ cat backupMysql.sh
@@ -19,4 +17,14 @@ tar zcf themap.multiverse.org.sql.tar.gz themap.multiverse.org.sql
 
 
 
-0 1 * * * 	/home/multiverse/bin/backupMysql.sh	/home/multiverse/sql
+
+/bin/date >> /home/multiverse/logs/rsync.log
+/usr/bin/rsync -e ssh -auv [USER]@[HOST]: >> /home/multiverse/logs/rsync.log 2>&1
+/bin/date >> /home/multiverse/logs/rsync.log
+
+
+0 1 * * * 	/home/multiverse/bin/backupMysql.sh	
+
+
+#specify the 
+tar zxvf /incoming/DATA_*.csv.gz /data
