@@ -10,7 +10,7 @@ These scripts have no licenese.  You are welcome to learn from them, if you can.
 
 ## File Move
 
-This script moves and (de/un)compresses files.
+This script (de/un)compresses gzip file(s) and does housekeeping.
 
 ## Unattended Install of BEA
 
