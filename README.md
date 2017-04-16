@@ -19,3 +19,7 @@ The need for failure awareness is paramount second only to security.  We can hav
 ## Unattended Install of BEA
 
 Even older application servers can be installed by automation.
+
+## Notes
+
+There are also notes in the portfolio sometimes.
