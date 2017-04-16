@@ -4,7 +4,7 @@ The scripts and configuration files above are examples of my work.
 
 # License
 
-These scripts have no licenese.  You are welcome to learn from them, if you can.  :-)
+These scripts have no license.  You are welcome to learn from them.
 
 # Examples
 
