@@ -1,6 +1,6 @@
 # Introduction
 
-The scripts and configuration files above are examples of my work.
+The scripts and configuration files above are examples of my work.  My name is Berry Sizemore.
 
 # License
 
