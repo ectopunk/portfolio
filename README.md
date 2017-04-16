@@ -1,17 +1,17 @@
 # Introduction
 
-These scripts are examples of my work.
+The scripts and configuration files above are examples of my work.
 
 # License
 
-These scripts have no licenese.  You are welcome to learn from them if you can.  :-)
+These scripts have no licenese.  You are welcome to learn from them, if you can.  :-)
 
 # Examples
 
 ## File Move
 
-ipsum lorem ipsum lorem
+This script moves and (de/un)compresses files.
 
 ## Unattended Install of BEA
 
-ipsum lorem ipsum lorem
+Even older application servers can be installed by automation.
